@@ -13,7 +13,7 @@
 
 **[🌐 Live Website](https://gym-naser.duckdns.org)** &nbsp;·&nbsp; **[📸 Screenshots](#screenshots)** &nbsp;·&nbsp; **[☁️ AWS Architecture](#aws-architecture)**
 
-<img src="docs/screenshots/01-home.jpg" width="960" alt="Gym Reserve home page showing the Train Beyond Limits hero section" />
+<img src="GymReserve_GitHub_Complete_Kit/docs/screenshots/01-home.jpg" width="960" alt="Gym Reserve home page showing the Train Beyond Limits hero section" />
 
 </div>
 
@@ -67,11 +67,11 @@ The system uses capacity checks and database-level constraints to help prevent o
 
 | Home / Landing Page | Create an Account |
 | :---: | :---: |
-| <img src="docs/screenshots/01-home.jpg" alt="Gym Reserve home page" width="480" /> | <img src="docs/screenshots/02-register.jpg" alt="Member registration page" width="480" /> |
+| <img src="GymReserve_GitHub_Complete_Kit/docs/screenshots/01-home.jpg" alt="Gym Reserve home page" width="480" /> | <img src="GymReserve_GitHub_Complete_Kit/docs/screenshots/02-register.jpg" alt="Member registration page" width="480" /> |
 | **Available Fitness Classes** | **My Reservations** |
-| <img src="docs/screenshots/03-available-classes.jpg" alt="Browse available class time slots" width="480" /> | <img src="docs/screenshots/04-my-reservations.jpg" alt="Member booking history with reservation statuses" width="480" /> |
+| <img src="GymReserve_GitHub_Complete_Kit/docs/screenshots/03-available-classes.jpg" alt="Browse available class time slots" width="480" /> | <img src="GymReserve_GitHub_Complete_Kit/docs/screenshots/04-my-reservations.jpg" alt="Member booking history with reservation statuses" width="480" /> |
 | **Admin Dashboard** | **Manage Time Slots** |
-| <img src="docs/screenshots/05-admin-dashboard.jpg" alt="Administrator statistics dashboard" width="480" /> | <img src="docs/screenshots/06-manage-classes.jpg" alt="Administrator class and time slot management" width="480" /> |
+| <img src="GymReserve_GitHub_Complete_Kit/docs/screenshots/05-admin-dashboard.jpg" alt="Administrator statistics dashboard" width="480" /> | <img src="GymReserve_GitHub_Complete_Kit/docs/screenshots/06-manage-classes.jpg" alt="Administrator class and time slot management" width="480" /> |
 
 ---
 
@@ -95,9 +95,9 @@ The system uses capacity checks and database-level constraints to help prevent o
 
 <div align="center">
 
-<img src="docs/architecture/aws-architecture.png" width="1000" alt="Gym Reserve AWS architecture: visitor through DuckDNS over HTTPS to EC2; EC2 communicates securely with private RDS MySQL; managed services include Secrets Manager, S3, CloudWatch, SNS and Systems Manager" />
+<img src="GymReserve_GitHub_Complete_Kit/docs/architecture/aws-architecture.png" width="1000" alt="Gym Reserve AWS architecture: visitor through DuckDNS over HTTPS to EC2; EC2 communicates securely with private RDS MySQL; managed services include Secrets Manager, S3, CloudWatch, SNS and Systems Manager" />
 
-**[View full-resolution diagram](docs/architecture/aws-architecture.png)** · **[SVG version](docs/architecture/aws-architecture.svg)**
+**[View full-resolution diagram](GymReserve_GitHub_Complete_Kit/docs/architecture/aws-architecture.png)** · **[SVG version](GymReserve_GitHub_Complete_Kit/docs/architecture/aws-architecture.svg)**
 
 </div>
 
@@ -153,9 +153,10 @@ The application lives inside the `gym-reservation3/` directory in this repositor
 gym-reservation/
 ├── README.md                         # GitHub project overview
 ├── .gitignore
-├── docs/
-│   ├── screenshots/                 # Six actual application screenshots
-│   └── architecture/                # AWS diagram (PNG + SVG)
+├── GymReserve_GitHub_Complete_Kit/
+│   ├── docs/
+│   │   ├── screenshots/             # Six actual application screenshots
+│   │   └── architecture/            # AWS diagram (PNG + SVG)
 └── gym-reservation3/
     ├── index.php                    # Application entry point
     ├── router.php                   # Local PHP built-in server router
